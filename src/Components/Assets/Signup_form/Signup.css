@@ -1,0 +1,194 @@
+/* Container for the signup form */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    line-height: 1.5;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+  
+  }
+  
+  .navbar-logo {
+      height: 50px; 
+    }
+  
+    .nav-links h2 {
+      text-decoration: none; 
+      color: #cb1414; 
+      margin-left: 50px; 
+    }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 8px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .text-wrapper {
+      display: flex;
+      align-items: center;
+  }
+  
+  .left-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-side {
+    width: 30%;
+    padding: 10px;
+    border: 3px solid #9000ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ .right-side:hover {
+    border-color: #3d5ccc;
+ }
+  
+  .welcome-text {
+    padding: 10px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 80%;
+    padding: 50px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .header .text {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .text-h1 {
+    font-size: 5px;
+    line-height: 1.6;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .terms-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #3c009d;
+    margin: 20px 0;
+  }
+  /* Title text for the signup form */
+  .text {
+    color: #09060c;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .sign_down {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #655d7f;
+  }
+  
+  .Terms, .Conditions {
+      color: rgb(18, 1, 1);
+  }
+  
+  
+  /* Wrapper for the input fields */
+  .input-wrapper {
+    display: flex;
+    margin-bottom: 20;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Style for each input container */
+  .inputs {
+    display: flex;
+    align-items: cente;
+    margin: auto;
+    width: 85%;
+    background: #eaeaea;
+    border-radius: 6px;
+    padding-left: 10px;
+  }
+  
+  /* Icon style inside the input field */
+  .inputs img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  h1 {
+      font-size: 1rem;
+      color: #6c6879;
+  }
+  
+  /* Styling for the input fields */
+  .inputs input {
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    padding: 0 8px;
+  }
+  
+  /* Styling for the submit button container */
+  .submit-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Submit button styling */
+  .submit {
+    background: #3d5ccc;
+    color: white;
+    padding: 15px 12.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+   
+  }
+  
+  /* Hover effect for the submit button */
+  
+  /* Optional: Media query to make the form responsive */
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  
+    .inputs {
+      width: 100%;
+    }
+  
+    .inputs input {
+      width: 100%;
+    }
+  }
